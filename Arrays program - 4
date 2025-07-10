@@ -1,0 +1,17 @@
+package Assignment;
+public class array4 {
+	    public static void main(String[] args) {
+	        int[] asciiValues = {
+	            75,111,110,103,117,110,97,100,117,32,
+	            67,111,108,108,101,103,101,32,
+	            111,102,32,
+	            69,110,103,105,110,101,101,114,105,110,103,32,
+	            97,110,100,32,
+	            84,101,99,104,110,111,108,111,103,121
+	        };
+
+	        for (int code : asciiValues) {
+	            System.out.print((char) code);
+	        }
+	    }
+	}
