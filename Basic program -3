@@ -1,0 +1,11 @@
+package Assignment;
+public class program3 {
+  public static void main(String args[]) {
+	  String a = args[0];
+	  String b = args[1];
+	  int n = Integer.parseInt(a);
+	  int m = Integer.parseInt(b);
+	  int sum = n+m;
+	  System.out.println("The sum of " + n + " and " + m + " is " + sum);
+  }
+}
